@@ -7,15 +7,21 @@
 //
 
 import UIKit
+import CLTypingLabel
 
 class WelcomeViewController: UIViewController {
     
-    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var titleLabel: CLTypingLabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        printAppLogo()
+        // animating the String manually
+        // printAppLogo()
+        
+        //animating the string via CLTypingLabel
+        titleLabel.text = "⚡️FlashChat"
+
     }
     
     func printAppLogo() {
