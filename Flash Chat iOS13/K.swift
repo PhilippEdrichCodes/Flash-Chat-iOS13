@@ -11,7 +11,7 @@
 // renamed struct to K for less typing
 struct K {
     static let appName = "⚡️FlashChat"
-    static let cellIdentifier = "chatViewCell"
+    static let cellIdentifier = "ChatViewCell"
     static let cellNibName = "MessageCell"
     static let registerSegue = "RegisterToChatSegue"
     static let loginSegue = "LoginToChatSegue"
